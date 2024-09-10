@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/nomeInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nome" />
+
+    <EditText
+        android:id="@+id/idadeInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Idade" />
+
+    <EditText
+        android:id="@+id/pesoInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Peso" />
+
+    <EditText
+        android:id="@+id/sangueQuenteInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Sangue Quente" />
+
+    <EditText
+        android:id="@+id/tipoEsqueletoInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tipo Esqueleto" />
+
+    <EditText
+        android:id="@+id/numeroMembrosInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Numero Membros" />
+
+</LinearLayout>

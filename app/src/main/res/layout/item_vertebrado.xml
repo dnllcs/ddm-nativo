@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/nomeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nome" />
+
+    <TextView
+        android:id="@+id/idadeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Idade" />
+
+    <TextView
+        android:id="@+id/pesoTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Peso" />
+
+    <TextView
+        android:id="@+id/sangueQuenteTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SangueQuente" />
+
+    <TextView
+        android:id="@+id/tipoEsqueletoTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TipoEsqueleto" />
+
+    <TextView
+        android:id="@+id/numeroMembrosTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NumeroMembros" />
+
+    <Button
+        android:id="@+id/deleteButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delete" />
+</LinearLayout>
